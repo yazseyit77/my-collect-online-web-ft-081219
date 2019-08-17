@@ -1,4 +1,4 @@
-def my_collect(empty_array) do |x|
-     counter += 1
+def my_collect(empty_array) do |name|
+    name.split(" ").first
   end
 end
